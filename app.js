@@ -100,12 +100,7 @@ const styleSrcUrls = [
 	'https://use.fontawesome.com/',
 	'https://cdn.jsdelivr.net'
 ];
-const connectSrcUrls = [
-	'https://api.mapbox.com/',
-	'https://a.tiles.mapbox.com/',
-	'https://b.tiles.mapbox.com/',
-	'https://events.mapbox.com/'
-];
+const connectSrcUrls = [ 'https://api.mapbox.com/', 'https://*.tiles.mapbox.com/', 'https://events.mapbox.com/' ];
 const fontSrcUrls = [];
 app.use(
 	helmet.contentSecurityPolicy({
